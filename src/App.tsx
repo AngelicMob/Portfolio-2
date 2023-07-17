@@ -1,9 +1,12 @@
+import { routes } from "./routes/routes"
 
 function App() {
 
   return (
     <>
-    helu
+    <div>Header</div>
+    {routes}
+    <div>Footer</div>
     </>
   )
 }
