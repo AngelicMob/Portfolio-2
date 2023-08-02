@@ -1,20 +1,20 @@
 import styled from "styled-components";
 
-export const CardContainer = styled("div")`
-  max-width: 1150px;
-  height: 196px;
-  width: 100%;
-  border-radius: 21px;
-  background: #fff;
-  padding: 30px 60px;
-  box-sizing: border-box;
+export const ListItemContainer = styled("div")`
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 105px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
   gap: 20px;
 `;
 
 export const ImageContainer = styled("div")`
-  height: 130px;
-  width: 130px;
+  height: 105px;
+  width: 105px;
+  border-radius: 15px;
 `;
 export const TextContainer = styled("div")`
   flex: 1;
@@ -24,7 +24,6 @@ export const TextContainer = styled("div")`
   align-items: flex-start;
   box-sizing: border-box;
   height: 100%;
-  gap: 8px;
   span {
     display: block;
   }
@@ -34,6 +33,7 @@ export const TextContainer = styled("div")`
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
+    margin-bottom: 8px;
   }
   .cardDescription {
     color: #3a3e48;

@@ -1,15 +1,21 @@
-import React from "react"
+import React from "react";
+import * as s from "./Footer.style";
+import MailOutlineRoundedIcon from "@mui/icons-material/MailOutlineRounded";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+type TFooter = {};
 
-type TFooter = {}
-
-const Footer = (props:TFooter) => {
+const Footer = (props: TFooter) => {
   return (
-    <div>
-      Footer
-    </div>
-  )
+    <s.FooterContainer>
+      <s.Content>
+        <s.Text>Let's Connect</s.Text>
+        <div>
+          <MailOutlineRoundedIcon style={{ fontSize: "32px" }} />
+          <LinkedInIcon style={{ fontSize: "32px" }} />
+        </div>
+      </s.Content>
+    </s.FooterContainer>
+  );
 };
-
-
 
 export default Footer;

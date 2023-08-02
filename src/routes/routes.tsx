@@ -1,12 +1,16 @@
-import { Route, Routes, createBrowserRouter } from "react-router-dom";
-import App from "../App";
-import About from "../pages/About/About";
-import Project from "../pages/Project/Project";
-import Home from "../pages/Home/Home";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import { routeCollection } from "./RoutesData";
+import { TRoutesDataCollection } from "./RoutesDataType";
+
 export const routes = (
   <Routes>
-    <Route path="/" Component={Home} />
-    <Route path="/about" Component={About} />
-    <Route path="/project" Component={Project} />
+    {routeCollection.map((e: TRoutesDataCollection) => {
+      return (
+        <React.Fragment key={e.destination}>
+          <Route path={e.destination} Component={e.comp} />
+        </React.Fragment>
+      );
+    })}
   </Routes>
 );
