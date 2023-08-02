@@ -3,6 +3,7 @@ import * as s from "./Project.style";
 import IntroCard from "../../components/IntroCard/IntroCard";
 import CyanCard from "../../components/CyanCard/CyanCard";
 import SectionList2 from "../../components/SectionList2/SectionList2";
+import { DesignPhase } from "../../components/DesignPhase/DesignPhase";
 type TProject = {};
 
 const IntroCardData = {
@@ -92,6 +93,9 @@ const Project = (props: TProject) => {
       </s.Section>
       <s.Section>
         <CyanCard {...cyanCardData2} sectionTitleVisible={true} />
+      </s.Section>
+      <s.Section>
+          <DesignPhase/>
       </s.Section>
       <s.Section>
         <SectionList2 data={keyLearningsData}></SectionList2>
