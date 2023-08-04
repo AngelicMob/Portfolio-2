@@ -1,10 +1,9 @@
-import React from "react";
 import * as s from "./Home.styles";
 import IntroCard from "../../components/IntroCard/IntroCard";
 import SectionList1 from "../../components/SectionList1/SectionList1";
 import SectionList2 from "../../components/SectionList2/SectionList2";
 import SnowManSection from "../../components/SnowManSection/SnowManSection";
-type THome = {};
+
 const QuoteString =
   "“Immersiveness and Close To Realism,\n Creates better experiences”";
 
@@ -89,7 +88,7 @@ const SnowManSectionData = {
     },
   ],
 };
-const Home = (props: THome) => {
+const Home = () => {
   return (
     <s.HomeContainer>
       <s.Quote>{QuoteString}</s.Quote>

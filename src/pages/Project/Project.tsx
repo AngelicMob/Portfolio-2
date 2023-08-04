@@ -1,9 +1,8 @@
-import React from "react";
 import * as s from "./Project.style";
 import IntroCard from "../../components/IntroCard/IntroCard";
 import CyanCard from "../../components/CyanCard/CyanCard";
 import SectionList2 from "../../components/SectionList2/SectionList2";
-type TProject = {};
+import DesignPhase from "../../components/DesignPhase/DesignPhase";
 
 const IntroCardData = {
   first: "MY LATEST PROJECT",
@@ -53,6 +52,13 @@ const phasesData = {
   ],
 };
 
+const DesignPhaseData = {
+  sectionTitleVisible: true,
+  sectionTitle: "Design Phase",
+  initiacardData:
+    "By following all UI principles and guidelines, I created the layout and updated the components. I also utilized my UX knowledge and research to create a smooth transition between Dark and Light Mode by using HSL in the Colors and testing with neutral and primary colors.",
+};
+
 const keyLearningsData = {
   title: `Key Learnings`,
   subText: ``,
@@ -78,7 +84,7 @@ const keyLearningsData = {
     },
   ],
 };
-const Project = (props: TProject) => {
+const Project = () => {
   return (
     <s.ProjectPageContainer>
       <s.Section>
@@ -92,6 +98,9 @@ const Project = (props: TProject) => {
       </s.Section>
       <s.Section>
         <CyanCard {...cyanCardData2} sectionTitleVisible={true} />
+      </s.Section>
+      <s.Section>
+        <DesignPhase {...DesignPhaseData} />
       </s.Section>
       <s.Section>
         <SectionList2 data={keyLearningsData}></SectionList2>

@@ -1,4 +1,3 @@
-import React from "react";
 import * as s from "./IntroCard.style";
 import Button from "../Button/Button";
 
@@ -8,7 +7,7 @@ type TIntroCard = {
 };
 
 type Data = {
-  first: string;
+  first?: string;
   second: string;
   third: string;
 };
@@ -17,7 +16,9 @@ const IntroCard = (props: TIntroCard) => {
   return (
     <s.IntroCardContainer>
       <s.TextContainer>
-        <span className="intro-heding">{props.data.first}</span>
+        {props.data.first && (
+          <span className="intro-heding">{props.data.first}</span>
+        )}
         <span className="hello">{props.data.second}</span>
         <span className="description">{props.data.third}</span>
         {props.buttonVisible && (

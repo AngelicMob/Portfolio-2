@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "src/assets/colorVariables.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
