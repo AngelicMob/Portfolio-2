@@ -1,13 +1,7 @@
-import React from "react"
+type TDottedListItem = {};
 
-type TDottedListItem = {}
-
-const DottedListItem = (props:TDottedListItem) => {
-  return (
-    <div>
-      DottedListItem
-    </div>
-  )
+const DottedListItem = () => {
+  return <div>DottedListItem</div>;
 };
 
 export default DottedListItem;

@@ -23,11 +23,7 @@ export const SectionTitle = styled("div")`
     font-weight: 700;
   }
 `;
-const flexGeneral = {
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-};
+
 export const InitialCard = styled("div")`
   max-width: 808px;
   min-height: 177px;

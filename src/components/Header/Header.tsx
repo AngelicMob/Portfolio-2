@@ -2,9 +2,8 @@ import { Link, useLocation } from "react-router-dom";
 import * as s from "./Header.style";
 import HouseboatRoundedIcon from "@mui/icons-material/HouseboatRounded";
 import DarkModeRoundedIcon from "@mui/icons-material/DarkModeRounded";
-type THeader = {};
 
-const Header = (props: THeader) => {
+const Header = () => {
   const currentRoute = useLocation();
 
   return (

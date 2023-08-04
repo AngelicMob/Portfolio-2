@@ -1,4 +1,3 @@
-import React from "react";
 import * as s from "./Card.style";
 import { ItemList } from "../SectionList2/SectionList2";
 

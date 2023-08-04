@@ -1,10 +1,8 @@
-import React from "react";
 import * as s from "./Footer.style";
 import MailOutlineRoundedIcon from "@mui/icons-material/MailOutlineRounded";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-type TFooter = {};
 
-const Footer = (props: TFooter) => {
+const Footer = () => {
   return (
     <s.FooterContainer>
       <s.Content>

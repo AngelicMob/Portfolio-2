@@ -1,4 +1,3 @@
-import React from "react";
 import * as s from "./SnowManSection.style";
 import { Link } from "react-router-dom";
 
