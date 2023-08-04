@@ -1,9 +1,11 @@
 import * as s from "./DesignPhase.styles";
+
 type TDesignPhase = {
   sectionTitleVisible?: boolean;
   sectionTitle?: string;
   initiacardData?: string;
 };
+
 const DesignPhase = (props: TDesignPhase) => {
   return (
     <s.DesignPhaseContainer>
