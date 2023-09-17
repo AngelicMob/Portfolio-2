@@ -5,7 +5,11 @@ type TMainLayout = {
 };
 
 const MainLayot = (props: TMainLayout) => {
-  return <s.MainLayoutContainer>{props.children}</s.MainLayoutContainer>;
+  return (
+    <>
+      <s.MainLayoutContainer>{props.children}</s.MainLayoutContainer>
+    </>
+  );
 };
 
 export default MainLayot;

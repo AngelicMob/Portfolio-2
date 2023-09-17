@@ -10,8 +10,21 @@ const Header = () => {
     <s.HeaderContainer>
       <s.Content>
         <div>
-          <HouseboatRoundedIcon style={{ fontSize: "48px" }} />
-          <Link to={"/"} style={{ textDecoration: "none" }}>
+          <Link
+            to={"/"}
+            style={{ textDecoration: "none", color: "#403939" }}
+            className="home-icon"
+          >
+            <HouseboatRoundedIcon
+              style={{ fontSize: "48px" }}
+              className="boat-house"
+            />
+          </Link>
+          <Link
+            to={"/"}
+            style={{ textDecoration: "none" }}
+            className="home-string"
+          >
             <s.Text currentroute={currentRoute.pathname === "/" ? 1 : 0}>
               Home
             </s.Text>
@@ -28,7 +41,7 @@ const Header = () => {
               About
             </s.Text>
           </Link>
-          <DarkModeRoundedIcon style={{ fontSize: "32px" }} />
+          {/* <DarkModeRoundedIcon style={{ fontSize: "32px" }} /> */}
         </div>
       </s.Content>
     </s.HeaderContainer>

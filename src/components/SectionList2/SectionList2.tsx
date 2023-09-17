@@ -6,12 +6,13 @@ type TSectionList1 = {
     title?: string;
     subText?: string;
     itemList?: ItemList[];
+    imageAvailable?: boolean;
   };
 };
 
 export type ItemList = {
   title: string;
-  imgSrc: string;
+  imgSrc?: string;
   description: string;
 };
 
@@ -24,8 +25,18 @@ const SectionList2 = (props: TSectionList1) => {
       )}
       <s.ListContainer>
         {props.data.itemList &&
-          props.data.itemList.map((e: ItemList) => {
-            return <Card withImage={true} data={e} />;
+          props.data.itemList.map((e: ItemList, i: number) => {
+            return (
+              <Card
+                key={i}
+                withImage={
+                  props?.data?.imageAvailable
+                    ? props.data.imageAvailable
+                    : false
+                }
+                data={e}
+              />
+            );
           })}
       </s.ListContainer>
     </s.SectionList2Container>

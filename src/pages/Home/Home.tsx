@@ -43,6 +43,7 @@ const SectionList1Data = {
   ],
 };
 const SectionList2Data = {
+  imageAvailable: true,
   title: `My UX
   Values`,
   subText: ``,
@@ -73,17 +74,17 @@ const SnowManSectionData = {
   data: [
     {
       title: "My Work",
-      imgSrc: "./exArt.jpg",
+      imgSrc: "./Snowmen/WorkBubble/portfolio-art work-bubble.svg",
       linkTo: "/projects",
     },
     {
       title: "Attributes",
-      imgSrc: "./exArt.jpg",
+      imgSrc: "./Snowmen/SkillBulp/portfolio-art SkillBulp.svg",
       linkTo: "/about",
     },
     {
       title: "About Me",
-      imgSrc: "./exArt.jpg",
+      imgSrc: "./Snowmen/AboutMe/hobbies.svg",
       linkTo: "/about",
     },
   ],

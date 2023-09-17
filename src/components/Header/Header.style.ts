@@ -5,7 +5,6 @@ export const HeaderContainer = styled("div")`
   height: 100px;
   width: 100%;
   background-color: ${Color.background};
-  color: "red";
 `;
 export const Content = styled("div")`
   height: 100%;
@@ -21,6 +20,15 @@ export const Content = styled("div")`
     justify-content: space-between;
     align-items: center;
     gap: 15px;
+  }
+
+  @media (max-width: 1005px) {
+    .home-string {
+      display: none;
+    }
+    padding: 0px 40px;
+    margin: 0px;
+    justify-content: space-between;
   }
 `;
 

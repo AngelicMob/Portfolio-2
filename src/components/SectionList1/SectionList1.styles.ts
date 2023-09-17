@@ -27,6 +27,9 @@ export const SectionList1Container = styled("div")`
     font-weight: 400;
     line-height: 24px; /* 150% */
   }
+  @media (max-width: 1005px) {
+    width: 100%;
+  }
 `;
 
 export const ListContainer = styled("div")`

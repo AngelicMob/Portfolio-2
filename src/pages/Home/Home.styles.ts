@@ -5,12 +5,12 @@ export const HomeContainer = styled("div")`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 150px;
+  gap: 50px;
+  padding: 0px 30px;
 `;
 
 export const Quote = styled("div")`
   margin-top: 70px;
-
   background: linear-gradient(90deg, #167a74 0%, #5b5b5b 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -23,9 +23,9 @@ export const Quote = styled("div")`
   font-weight: 700;
   line-height: 40px; /* 125% */
   letter-spacing: -0.64px;
-  @media (max-width: 1005px) {
+  /* @media (max-width: 1005px) {
     height: 300px;
-  }
+  } */
 `;
 
 export const Section = styled("section")`

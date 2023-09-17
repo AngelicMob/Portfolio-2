@@ -10,6 +10,13 @@ export const CardContainer = styled("div")`
   box-sizing: border-box;
   display: flex;
   gap: 20px;
+
+  @media (max-width: 1005px) {
+    flex-direction: column;
+    padding: 30px 30px;
+
+    height: auto;
+  }
 `;
 
 export const ImageContainer = styled("div")`

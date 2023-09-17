@@ -15,9 +15,9 @@ const SnowManSection = (props: TSnowManSection) => {
   return (
     <s.SnowManSectionContainer>
       {props.data &&
-        props.data.map((e: SnowManData) => {
+        props.data.map((e: SnowManData, i: number) => {
           return (
-            <Link to={e.linkTo} style={{ textDecoration: "none" }}>
+            <Link to={e.linkTo} style={{ textDecoration: "none" }} key={i}>
               <s.SnowManContainer>
                 <span className="cardTitle">{e.title}</span>
                 <s.ImageContainer>

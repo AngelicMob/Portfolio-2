@@ -5,10 +5,22 @@ export const AboutPageContainer = styled("div")`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 150px;
+
   margin-top: 150px;
   margin-bottom: 150px;
 `;
 export const Section = styled("div")`
   width: 100%;
+`;
+
+export const SectionWhite = styled("div")`
+  width: 100%;
+  padding: 85px;
+  background-color: #f8f9fc;
+`;
+
+export const SectionCyan = styled("div")`
+  width: 100%;
+  padding: 85px;
+  background-color: #cef6ee;
 `;

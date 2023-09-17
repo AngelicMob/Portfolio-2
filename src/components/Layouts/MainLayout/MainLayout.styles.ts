@@ -9,3 +9,13 @@ export const MainLayoutContainer = styled("div")`
   min-height: 80%;
   background-color: ${Color.background};
 `;
+
+export const ExBox = styled("div")`
+  height: 150px;
+  width: 150px;
+  background: red;
+  position: fixed;
+
+  bottom: 50px;
+  left: 20px;
+`;

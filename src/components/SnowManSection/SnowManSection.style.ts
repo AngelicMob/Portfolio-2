@@ -4,12 +4,18 @@ export const SnowManSectionContainer = styled("div")`
   margin-top: 120px;
   margin-bottom: 120px;
   width: 70%;
+
   max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
 
   display: flex;
   gap: 40px;
+
+  @media (max-width: 1005px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const SnowManContainer = styled("div")`
@@ -35,6 +41,8 @@ export const SnowManContainer = styled("div")`
 `;
 
 export const ImageContainer = styled("div")`
-  width: 100%;
-  aspect-ratio: 1/1;
+  min-width: 355px;
+  min-height: 355px;
+  max-width: 355px;
+  max-height: 355px;
 `;

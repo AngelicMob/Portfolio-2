@@ -29,7 +29,10 @@ const IntroCard = (props: TIntroCard) => {
         )}
       </s.TextContainer>
       <s.ImageContainer>
-        <img src="./exArt.jpg" style={{ height: "100%", width: "100%" }} />
+        <img
+          src="./landingpage-nightmountain/PNG/portfolio-art nightMountain.png"
+          style={{ height: "100%", width: "100%" }}
+        />
       </s.ImageContainer>
     </s.IntroCardContainer>
   );

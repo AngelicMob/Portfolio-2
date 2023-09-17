@@ -3,15 +3,17 @@ import styled from "styled-components";
 export const IntroCardContainer = styled("div")`
   width: 100%;
   max-width: 1150px;
-  height: 300px;
+  min-height: 300px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  gap: 50px;
   @media (max-width: 1005px) {
     flex-direction: column-reverse;
+    justify-content: center;
   }
 `;
 
@@ -50,6 +52,11 @@ export const TextContainer = styled("div")`
     line-height: 30px; /* 187.5% */
     white-space: pre-line;
     margin-bottom: 30px;
+  }
+
+  @media (max-width: 1005px) {
+    margin-right: none;
+    padding-right: none;
   }
 `;
 export const ImageContainer = styled("div")`

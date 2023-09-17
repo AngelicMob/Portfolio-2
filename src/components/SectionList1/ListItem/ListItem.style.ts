@@ -9,6 +9,14 @@ export const ListItemContainer = styled("div")`
   margin-top: 50px;
   margin-bottom: 50px;
   gap: 20px;
+
+  @media (max-width: 1005px) {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 `;
 
 export const ImageContainer = styled("div")`

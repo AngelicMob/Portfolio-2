@@ -1,3 +1,4 @@
+import React from "react";
 import ListItem from "./ListItem/ListItem";
 import * as s from "./SectionList1.styles";
 
@@ -10,9 +11,9 @@ type TSectionList1 = {
 };
 
 export type ItemList = {
-  title: string;
-  imgSrc: string;
-  description: string;
+  title?: string;
+  imgSrc?: string;
+  description?: string;
 };
 
 const SectionList1 = (props: TSectionList1) => {
@@ -25,7 +26,12 @@ const SectionList1 = (props: TSectionList1) => {
       <s.ListContainer>
         {props.data.itemList &&
           props.data.itemList.map((e: ItemList) => {
-            return <ListItem data={e} />;
+            return (
+              <React.Fragment key={e.title}>
+                {" "}
+                <ListItem data={e} />
+              </React.Fragment>
+            );
           })}
       </s.ListContainer>
     </s.SectionList1Container>
