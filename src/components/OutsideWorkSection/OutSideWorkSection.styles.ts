@@ -46,6 +46,10 @@ export const Description = styled("div")`
   font-weight: 400;
   line-height: 32px; /* 152.381% */
   width: 50%;
+
+  @media (max-width: 1005px) {
+    width: 100%;
+  }
 `;
 export const ImageContainer = styled("div")`
   width: 50%;

@@ -6,8 +6,9 @@ export const ProjectPageContainer = styled("div")`
   justify-content: center;
   align-items: center;
   gap: 150px;
-  margin-top: 150px;
+
   margin-bottom: 150px;
+  padding: 0px 30px;
 `;
 
 export const Section = styled("div")`

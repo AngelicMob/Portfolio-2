@@ -21,6 +21,10 @@ export const AttributesContainer = styled("div")`
     font-style: normal;
     font-weight: 700;
   }
+
+  @media (max-width: 1005px) {
+    padding-bottom: 0px;
+  }
 `;
 
 export const StatsContainer = styled("div")`
@@ -50,5 +54,9 @@ export const Container = styled("div")`
     font-style: normal;
     font-weight: 600;
     line-height: 32px; /* 114.286% */
+  }
+
+  @media (max-width: 1005px) {
+    width: 100%;
   }
 `;

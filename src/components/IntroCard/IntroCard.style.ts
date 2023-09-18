@@ -11,9 +11,12 @@ export const IntroCardContainer = styled("div")`
   align-items: center;
   box-sizing: border-box;
   gap: 50px;
+  margin-bottom: 150px;
+  margin-top: 50px;
   @media (max-width: 1005px) {
     flex-direction: column-reverse;
     justify-content: center;
+    margin-bottom: 15px;
   }
 `;
 
@@ -57,6 +60,15 @@ export const TextContainer = styled("div")`
   @media (max-width: 1005px) {
     margin-right: none;
     padding-right: none;
+  }
+
+  @media (max-width: 1005px) {
+    .hello {
+      font-size: 32px;
+    }
+    .intro-heding {
+      font-size: 14px;
+    }
   }
 `;
 export const ImageContainer = styled("div")`

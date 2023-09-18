@@ -94,7 +94,6 @@ const About = () => {
       <s.Section>
         <IntroCard data={IntroCardData} buttonVisible={false} />
       </s.Section>
-      <div style={{ height: "150px" }}></div>
       <s.Section>
         <SectionList1 data={SectionList1Data}></SectionList1>
       </s.Section>

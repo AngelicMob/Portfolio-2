@@ -7,6 +7,7 @@ export const CyanCardContainer = styled("div")`
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  height: auto;
 `;
 
 export const SectionTitle = styled("div")`
@@ -60,5 +61,17 @@ export const CyanCard = styled("div")`
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
+  }
+
+  @media (max-width: 1005px) {
+    height: auto;
+    padding: 20px 40px;
+    .title {
+      font-size: 18px;
+    }
+
+    .intro {
+      font-size: 12px;
+    }
   }
 `;
