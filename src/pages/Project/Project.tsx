@@ -10,6 +10,7 @@ const IntroCardData = {
   Library`,
   third:
     "Devinova's project involved creating a headless CMS for clients, and as a UX designer, my role was to create reusable layout templates with everything editable. To achieve this, I utilized auto layout, properties, instances, and the whole kit and caboodle, so that future UX designers can easily make edits.",
+  imgSrc: "./project_icons/devinova.svg",
 };
 
 const cyanCardData = {
@@ -34,22 +35,23 @@ const phasesData = {
   itemList: [
     {
       title: "Empathy",
-      imgSrc: "./exArt.jpg",
+      imgSrc: "./project_icons/section1_phases/icon1_empathy.svg",
       description: `Interviewed Stakeholders, `,
     },
     {
       title: "Design",
-      imgSrc: "./exArt.jpg",
+      imgSrc: "./project_icons/section1_phases/icon2_design.svg",
       description:
         "Followed and used 3 basic heuristics to construct the layout designs.",
     },
     {
       title: "Iteration",
-      imgSrc: "./exArt.jpg",
+      imgSrc: "./project_icons/section1_phases/icon3_iterate.svg",
       description: `Immersive Interactions delivers a great and smooth iterating
       opportunity, and also allows faster feedback for improvements!`,
     },
   ],
+  imageAvailable: true,
 };
 
 const DesignPhaseData = {

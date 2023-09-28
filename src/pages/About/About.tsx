@@ -17,6 +17,7 @@ const IntroCardData = {
 
   It’s real fun to me when the designs you create actually solve problems. And I am very
   interested to become better at the UI and interaction part of UX.`,
+  imgSrc: "./Snowmen/AboutMe/hobbies.svg",
 };
 
 const SectionList1Data = {
@@ -24,22 +25,22 @@ const SectionList1Data = {
   itemList: [
     {
       title: "Keep Learning",
-      imgSrc: "./exArt.jpg",
+      imgSrc: "./about_me_icons/my_values/icon1_learn.svg",
       description: `By problem framing very good, you can uncover the solutions that are best suited for the right problem. Which is why I believe it is one of the most important aspect in UX.`,
     },
     {
       title: "Creativity + Principles",
-      imgSrc: "./exArt.jpg",
+      imgSrc: "./about_me_icons/my_values/icon2_creative.svg",
       description: "If you uncover the right",
     },
     {
       title: "Stay Humble and Updated ",
-      imgSrc: "./exArt.jpg",
+      imgSrc: "./about_me_icons/my_values/icon3_humble.svg",
       description: `Immersive Interactions delivers a great and smooth iterating opportunity, and also allows faster feedback for improvements!`,
     },
     {
       title: "Stay Problem Frame Focused",
-      imgSrc: "./exArt.jpg",
+      imgSrc: "./about_me_icons/my_values/icon4_problem.svg",
       description: `Immersive Interactions delivers a great and smooth iterating opportunity, and also allows faster feedback for improvements!`,
     },
   ],

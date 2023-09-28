@@ -3,7 +3,6 @@ import { Color } from "../../../assets/colorVariables";
 
 export const MainLayoutContainer = styled("div")`
   width: 100%;
-  overflow-x: scroll;
   padding: 10px;
   box-sizing: border-box;
   min-height: 80%;

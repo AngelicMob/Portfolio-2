@@ -11,6 +11,7 @@ const IntroCardData = {
   first: "UX Designer",
   second: "Hello! I am Angelic",
   third: `A passionate UX Designer, Researcher and Digital Designer based in Gothenburg , and I design UI & UX, you will find me draw & digital paint and write practicing for fun.`,
+  imgSrc: "./landingpage-nightmountain/PNG/portfolio-art nightMountain.png",
 };
 
 const SectionList1Data = {
@@ -22,22 +23,22 @@ const SectionList1Data = {
   itemList: [
     {
       title: "Block Library",
-      imgSrc: "./exArt.jpg",
+      imgSrc: "./landingpage_icons/s1_recent_projectlist/icon1_block.svg",
       description: `By problem framing very good, you can uncover the solutions that are best suited for the right problem. Which is why I believe it is one of the most important aspect in UX.`,
     },
     {
       title: "Logo Design",
-      imgSrc: "./exArt.jpg",
+      imgSrc: "./landingpage_icons/s1_recent_projectlist/icon2_logodesign.svg",
       description: "If you uncover the right",
     },
     {
       title: "Brand and Logo Guidelines",
-      imgSrc: "./exArt.jpg",
+      imgSrc: "./landingpage_icons/s1_recent_projectlist/icon3_logoguide.svg",
       description: `Immersive Interactions delivers a great and smooth iterating opportunity, and also allows faster feedback for improvements!`,
     },
     {
       title: "Color System, Grids and Typography",
-      imgSrc: "./exArt.jpg",
+      imgSrc: "./landingpage_icons/s1_recent_projectlist/icon4_colorsystem.svg",
       description: `Immersive Interactions delivers a great and smooth iterating opportunity, and also allows faster feedback for improvements!`,
     },
   ],
@@ -50,22 +51,26 @@ const SectionList2Data = {
   itemList: [
     {
       title: "Problem Framing",
-      imgSrc: "./exArt.jpg",
+      imgSrc:
+        "./landingpage_icons/s2_ux_values/emoji_objects_FILL0_wght400_GRAD0_opsz24.svg",
       description: `By problem framing very good, you can uncover the solutions that are best suited for the right problem. Which is why I believe it is one of the most important aspect in UX.`,
     },
     {
       title: "Creativity + Principles",
-      imgSrc: "./exArt.jpg",
+      imgSrc:
+        "./landingpage_icons/s2_ux_values/important_devices_FILL0_wght400_GRAD0_opsz24.svg",
       description: "If you uncover the right",
     },
     {
       title: "Prototyping ",
-      imgSrc: "./exArt.jpg",
+      imgSrc:
+        "./landingpage_icons/s2_ux_values/indeterminate_question_box_FILL0_wght400_GRAD0_opsz24.svg",
       description: `Immersive Interactions delivers a great and smooth iterating opportunity, and also allows faster feedback for improvements!`,
     },
     {
       title: "Color System, Grids and Typography",
-      imgSrc: "./exArt.jpg",
+      imgSrc:
+        "./landingpage_icons/s2_ux_values/undraw_prototyping_process_re_7a6p.svg",
       description: `Immersive Interactions delivers a great and smooth iterating opportunity, and also allows faster feedback for improvements!`,
     },
   ],

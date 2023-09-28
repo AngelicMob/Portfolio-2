@@ -10,6 +10,7 @@ type Data = {
   first?: string;
   second: string;
   third: string;
+  imgSrc: string;
 };
 
 const IntroCard = (props: TIntroCard) => {
@@ -30,7 +31,7 @@ const IntroCard = (props: TIntroCard) => {
       </s.TextContainer>
       <s.ImageContainer>
         <img
-          src="./landingpage-nightmountain/PNG/portfolio-art nightMountain.png"
+          src={props.data.imgSrc}
           style={{ height: "100%", width: "100%" }}
         />
       </s.ImageContainer>

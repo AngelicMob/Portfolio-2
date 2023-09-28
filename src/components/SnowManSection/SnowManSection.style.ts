@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const SnowManSectionContainer = styled("div")`
   margin-top: 120px;
   margin-bottom: 120px;
-  width: 70%;
 
   max-width: 1150px;
   margin-left: auto;
