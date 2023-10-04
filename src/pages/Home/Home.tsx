@@ -24,7 +24,7 @@ const SectionList1Data = {
     {
       title: "Block Library",
       imgSrc: "./landingpage_icons/s1_recent_projectlist/icon1_block.svg",
-      description: `By problem framing very good, you can uncover the solutions that are best suited for the right problem. Which is why I believe it is one of the most important aspect in UX.`,
+      description: `A template system for the company to reuse for clients. It involved making the design for each section of contents in Figma for the Devs.`,
     },
     {
       title: "Logo Design",
