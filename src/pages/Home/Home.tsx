@@ -59,7 +59,7 @@ const SectionList2Data = {
       title: "Creativity + Principles",
       imgSrc:
         "./landingpage_icons/s2_ux_values/important_devices_FILL0_wght400_GRAD0_opsz24.svg",
-      description: "If you uncover the right",
+      description: "If you uncover the right tools",
     },
     {
       title: "Prototyping ",
