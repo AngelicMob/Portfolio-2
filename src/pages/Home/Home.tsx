@@ -29,17 +29,17 @@ const SectionList1Data = {
     {
       title: "Logo Design",
       imgSrc: "./landingpage_icons/s1_recent_projectlist/icon2_logodesign.svg",
-      description: "If you uncover the right",
+      description: "Used Adobe Illustrator to make my first Logo for the company. It was made print ready and used for the web.",
     },
     {
       title: "Brand and Logo Guidelines",
       imgSrc: "./landingpage_icons/s1_recent_projectlist/icon3_logoguide.svg",
-      description: `Immersive Interactions delivers a great and smooth iterating opportunity, and also allows faster feedback for improvements!`,
+      description: `The guidelines were made with Adobe Illustrator, included the Logo usage and Brand for Typography.`,
     },
     {
       title: "Color System, Grids and Typography",
       imgSrc: "./landingpage_icons/s1_recent_projectlist/icon4_colorsystem.svg",
-      description: `Immersive Interactions delivers a great and smooth iterating opportunity, and also allows faster feedback for improvements!`,
+      description: `These essentials were added to add Brand Identity and Personality.`,
     },
   ],
 };
@@ -53,19 +53,19 @@ const SectionList2Data = {
       title: "Problem Framing",
       imgSrc:
         "./landingpage_icons/s2_ux_values/emoji_objects_FILL0_wght400_GRAD0_opsz24.svg",
-      description: `By problem framing very good, you can uncover the solutions that are best suited for the right problem. Which is why I believe it is one of the most important aspect in UX.`,
+      description: `By problem framing greatly, you can uncover the solutions that are best suited for the right problem. Which is why I believe it is one of the most important aspect in UX.`,
     },
     {
       title: "Creativity + Principles",
       imgSrc:
         "./landingpage_icons/s2_ux_values/important_devices_FILL0_wght400_GRAD0_opsz24.svg",
-      description: "If you uncover the right tools",
+      description: "It is really important to follow principles and also apply your creativity while you design to maintain and deliver faster in providing designs.",
     },
     {
       title: "Prototyping ",
       imgSrc:
         "./landingpage_icons/s2_ux_values/indeterminate_question_box_FILL0_wght400_GRAD0_opsz24.svg",
-      description: `Immersive Interactions delivers a great and smooth iterating opportunity, and also allows faster feedback for improvements!`,
+      description: `Immersive Interactions delivers a great and smooth iterating opportunity, and also allows faster feedback for improvements.`,
     },
     {
       title: "Color System, Grids and Typography",
