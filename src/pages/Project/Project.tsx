@@ -26,7 +26,8 @@ const cyanCardData = {
 const cyanCardData2 = {
   sectionTitle: "Empathy",
   card: {
-    description: `By problem framing very good, you can uncover the solutions that are best suited for the right problem. Which is why I believe it is one of the most important aspect in UX.`,
+    description: `To understand and provide along with the vision of the company, I went through an Empathy phase.
+    The main focus was to create a headless CMS for customers, and since the developers had limited amount of the time, the focus for me as a UX designer was to design prototypes on how these layouts would look like.`,
   },
 };
 const phasesData = {
@@ -36,7 +37,7 @@ const phasesData = {
     {
       title: "Empathy",
       imgSrc: "./project_icons/section1_phases/icon1_empathy.svg",
-      description: `Interviewed Stakeholders, `,
+      description: `Interviewed Stakeholders, and made sure the product owners vision was understood, in order to deliver the right style and design.`,
     },
     {
       title: "Design",
@@ -47,8 +48,7 @@ const phasesData = {
     {
       title: "Iteration",
       imgSrc: "./project_icons/section1_phases/icon3_iterate.svg",
-      description: `Immersive Interactions delivers a great and smooth iterating
-      opportunity, and also allows faster feedback for improvements!`,
+      description: `Upon iterating, I was able to deliver the stakeholders expectations and further improve the design of the templates.`,
     },
   ],
   imageAvailable: true,

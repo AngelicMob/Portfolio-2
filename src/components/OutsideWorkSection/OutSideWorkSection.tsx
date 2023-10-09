@@ -13,16 +13,15 @@ const OutSideWorkSection = () => {
           </span>
 
           <span>
-            Along of other things I do is cooking, gaming and writing my book.
+           Along of other things I do is cooking, gaming and working on my novel.
           </span>
           <span>
-            I am also very fascinated by art and how you can create things and
-            illustrate out of your mind, it’s a beautiful thing.
+          I am also very fascinated by art and how you can create things and illustrate out of your mind, it’s a beautiful thing.
           </span>
 
           <span>
-            That is why I have taken an interest and have began self tutoring
-            myself within Graphic Design.
+          That is why I have taken an interest and have began self tutoring myself 
+          within Graphic Design and Motion Design.
           </span>
         </s.Description>
         <s.ImageContainer>

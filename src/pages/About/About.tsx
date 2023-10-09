@@ -26,45 +26,45 @@ const SectionList1Data = {
     {
       title: "Keep Learning",
       imgSrc: "./about_me_icons/my_values/icon1_learn.svg",
-      description: `By problem framing very good, you can uncover the solutions that are best suited for the right problem. Which is why I believe it is one of the most important aspect in UX.`,
+      description: `To stay updated and grow I believe it is really important to keep learning and have fun while at it. `,
     },
     {
       title: "Creativity + Principles",
       imgSrc: "./about_me_icons/my_values/icon2_creative.svg",
-      description: "If you uncover the right",
+      description: "By having principles applied it is way easier to design to maintain professionalism and also be able to provide the right level of creativity in your designs.",
     },
     {
       title: "Stay Humble and Updated ",
       imgSrc: "./about_me_icons/my_values/icon3_humble.svg",
-      description: `Immersive Interactions delivers a great and smooth iterating opportunity, and also allows faster feedback for improvements!`,
+      description: `To keep learning, it is important to stay humble, otherwise it might be easy to stay stuck and not grow further to your potential.`,
     },
     {
       title: "Stay Problem Frame Focused",
       imgSrc: "./about_me_icons/my_values/icon4_problem.svg",
-      description: `Immersive Interactions delivers a great and smooth iterating opportunity, and also allows faster feedback for improvements!`,
+      description: `By finding out the real problem while holding the needs and the stakeholders in mind, it can really provide the best solutions that benefits both.`,
     },
   ],
 };
 
 const SectionList2Data = {
-  title: `My Knowledge Kit`,
+  title: `My Kit`,
   subText: ``,
   itemList: [
     {
       title: "UX Designing ",
 
       description:
-        "I gained a lot of experience in more pixel perfect design such as: Baseline Grid and Typography. Even though it is a basic thing, I really gained a lot of knowledge for a more prettier UI look. ",
+        "The key foundations of UX are Design Principles, Research, and problem framing. I can offer both cost-effective and flexible solutions which I have prepared and have in store. ",
     },
     {
       title: "Graphic Design",
 
-      description: "sy",
+      description: "With the knowledge of fundamentals of art and colour theory, I have some knowledge within Graphic design and can apply it within my UI designs.",
     },
     {
       title: "Self Taught Graphic Designer + Artist",
 
-      description: `Creating the different Layouts for the Block library`,
+      description: `My interest in art has made me very eager to expand my knowledge within Graphic design as well as motion graphics in order to expand my learnings especially within the Graphical parts of UX the most.`,
     },
   ],
 };
