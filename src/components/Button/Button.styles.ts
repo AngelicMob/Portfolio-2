@@ -19,8 +19,9 @@ export const ButtonContainer = styled("button")`
   box-sizing: border-box;
 
   &&:hover {
-    background-color: #292336;
+    background-color: #167a74;
     color: #ffffff;
+    border-color: #167a74;
     cursor: pointer;
     transition: 0.2s ease-in-out;
   }
