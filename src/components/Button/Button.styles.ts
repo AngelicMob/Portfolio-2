@@ -17,4 +17,11 @@ export const ButtonContainer = styled("button")`
 
   padding: 16px 28px;
   box-sizing: border-box;
+
+  &&:hover {
+    background-color: #292336;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
 `;

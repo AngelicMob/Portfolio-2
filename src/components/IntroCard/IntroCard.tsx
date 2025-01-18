@@ -1,5 +1,6 @@
 import * as s from "./IntroCard.style";
 import Button from "../Button/Button";
+import { useNavigate } from "react-router-dom";
 
 type TIntroCard = {
   data: Data;
@@ -14,6 +15,8 @@ type Data = {
 };
 
 const IntroCard = (props: TIntroCard) => {
+  const navigate = useNavigate();
+
   return (
     <s.IntroCardContainer>
       <s.TextContainer>
@@ -24,7 +27,7 @@ const IntroCard = (props: TIntroCard) => {
         <span className="description">{props.data.third}</span>
         {props.buttonVisible && (
           <Button
-            action={() => console.log("clicked")}
+            action={() => navigate("project")}
             text="View My Works"
           ></Button>
         )}

@@ -90,7 +90,7 @@ const Project = () => {
   return (
     <s.ProjectPageContainer>
       <s.Section>
-        <IntroCard data={IntroCardData} buttonVisible={true} />
+        <IntroCard data={IntroCardData} buttonVisible={false} />
       </s.Section>
       <s.Section>
         <CyanCard {...cyanCardData} sectionTitleVisible={false} />
