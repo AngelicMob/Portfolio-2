@@ -29,7 +29,8 @@ const SectionList1Data = {
     {
       title: "Logo Design",
       imgSrc: "./landingpage_icons/s1_recent_projectlist/icon2_logodesign.svg",
-      description: "Used Adobe Illustrator to make my first Logo for the company. It was made print ready and used for the web.",
+      description:
+        "Used Adobe Illustrator to make my first Logo for the company. It was made print ready and used for the web.",
     },
     {
       title: "Brand and Logo Guidelines",
@@ -59,7 +60,8 @@ const SectionList2Data = {
       title: "Creativity + Principles",
       imgSrc:
         "./landingpage_icons/s2_ux_values/important_devices_FILL0_wght400_GRAD0_opsz24.svg",
-      description: "It is really important to follow principles and also apply your creativity while you design to maintain and deliver faster in providing designs.",
+      description:
+        "It is really important to follow principles and also apply your creativity while you design to maintain and deliver faster in providing designs.",
     },
     {
       title: "Prototyping ",
@@ -80,7 +82,7 @@ const SnowManSectionData = {
     {
       title: "My Work",
       imgSrc: "./Snowmen/WorkBubble/portfolio-art work-bubble.svg",
-      linkTo: "/projects",
+      linkTo: "/project",
     },
     {
       title: "Attributes",
