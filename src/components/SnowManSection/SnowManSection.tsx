@@ -25,7 +25,7 @@ const SnowManSection = (props: TSnowManSection) => {
   return (
     <s.SnowManSectionContainer>
       {props.data &&
-        props.data.map((e: SnowManData, i: number) => {
+        props.data.map((e: SnowManData) => {
           return (
             <s.SnowManContainer
               key={e.imgSrc}
